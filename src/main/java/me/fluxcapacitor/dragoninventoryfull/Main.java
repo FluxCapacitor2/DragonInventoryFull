@@ -56,7 +56,7 @@ public class Main extends JavaPlugin implements Listener {
 
         config.addDefault("placeholderapi.fullMsg", "&cFull");
         config.addDefault("placeholderapi.notFullMsg", "&aNot full");
-        config.addDefault("placeholderapi.percentFullMsg", "&3{PERCENT}% full");
+        config.addDefault("placeholderapi.percentFullMsg", "&3%percent%% full");
 
         config.options().copyDefaults(true);
         saveConfig();

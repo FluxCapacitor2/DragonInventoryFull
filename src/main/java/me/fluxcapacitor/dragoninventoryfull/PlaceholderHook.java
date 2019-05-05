@@ -33,7 +33,7 @@ public class PlaceholderHook extends PlaceholderExpansion {
         }
 
         if (identifier.equalsIgnoreCase("percentFull")) {
-            return Main.percentFullPlaceholderMsg.replaceAll("({PERCENT})", Main.percentFull((Player) player) + "");
+            return Main.percentFullPlaceholderMsg.replaceAll("%percent%", Main.percentFull((Player) player) + "");
         }
 
         return null;
